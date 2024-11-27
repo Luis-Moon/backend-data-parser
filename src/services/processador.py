@@ -29,4 +29,4 @@ class Processador:
         Filtro de string baseado em expressão regular
         """
         import re
-        return re.findall(expressao, info_pessoal)
+        return re.findall(expressao, info_pessoal)[0]

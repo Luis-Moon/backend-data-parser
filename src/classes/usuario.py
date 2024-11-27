@@ -9,7 +9,7 @@ class Usuario:
         self.endereco = endereco
     def obter_dados(self):
         """
-        Retorna os dados de um Usuario dentro de uma tupla
+        Retorna os dados de um objeto Usuario dentro de uma tupla
         """
         return self.nome, self.email, self.endereco
     
