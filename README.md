@@ -66,6 +66,26 @@ O cliente, Alice, com email, alice@xyzzzzzz.com, morador do endereço, Rua Brasi
    - Arquivo: `services/funcs_auxiliares.py`
    - Exibe os dados formatados no formato especificado.
 
+---
+## 📊 **Executando Testes Unitários**
+
+Para executar os testes unitários localizados na pasta `/test/`, siga os passos abaixo:
+
+1. Instale o `pytest` utilizando o `pip`:
+    ```
+    pip install pytest
+    ```
+
+2. No terminal, navegue até a raiz do projeto.
+
+3. Execute o `pytest`:
+    ```
+    pytest
+    ```
+
+Esses comandos rodarão todos os testes unitários encontrados na pasta `/test/`.
+
+---
 
 ## 💭 **Futuras Possibilidades**
    - Devido a estrutura `GerenciadorClientes` a possibilidade de migração para bancos sql seria simples
