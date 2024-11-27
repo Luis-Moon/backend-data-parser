@@ -15,7 +15,7 @@ class  GerenciadorClientes:
         """
         Usando se dos dados de um cliente, cria-se objeto Cliente e armazena em container
         """
-        self.clientes.append(Cliente(dados_cliente[0:2],dados_cliente[3:]))
+        self.clientes.append(Cliente(dados_cliente[0:3],dados_cliente[3:]))
     def deletar_todos(self):
         """
         Deleta todos os clientes do container
@@ -26,3 +26,9 @@ class  GerenciadorClientes:
         Retorna todos os clientes do container
         """
         return self.clientes
+    def executar_lambda(self, lambda_func):
+        """
+        Executa uma função lambda sobre todos os clientes do container
+        """
+        for cliente in self.obter_clientes():
+            lambda_func(cliente)
